@@ -1,0 +1,241 @@
+// Here you can add other styles
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #212529;
+  border-color: #212529;
+}
+a {
+  color: #007bff;
+}
+
+.font15 {
+  font-size: 15px !important;
+}
+
+.error {
+  color: #ee5151;
+}
+
+.loader {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+._loading_overlay_content {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+}
+
+.darkBackground {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.MuiTableCell-stickyHeader {
+  background-color: #3c4b64 !important;
+  color: #fff !important;
+}
+
+.MuiTablePagination-selectLabel {
+  margin-bottom: 0;
+}
+
+.MuiTablePagination-displayedRows {
+  margin-bottom: 0;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+.actions-flex {
+  display: flex;
+  inline-size: max-content;
+}
+
+.plusIcon {
+  background-color: #212529;
+  color: white;
+  border-radius: 25px;
+  margin: 17px 5px 0 50px;
+}
+
+.minusIcon {
+  background-color: #eb2f2f;
+  color: white;
+  border-radius: 25px;
+  margin: 17px 5px 0 50px;
+}
+
+.slotPart {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 15px;
+  padding: 30px 15px !important;
+}
+
+.slotDaysPart {
+  margin-bottom: 10px;
+}
+
+.slotDays {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  font-size: 16px;
+}
+
+.slotTimeBoard {
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+  // min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.timeSlot {
+  width: 100%;
+  line-height: normal;
+  font-size: 16px;
+}
+
+.isDisabledColor {
+  background-color: silver;
+  cursor: not-allowed;
+}
+
+.isBookedColor {
+  background-color: tomato;
+  cursor: not-allowed;
+  color: white;
+}
+
+.ShowMore {
+  font-size: 16px;
+  color: #0084c3;
+  text-align: center;
+}
+
+.isAvailable {
+  background-color: aliceblue;
+}
+.isSelected {
+  background-color: #f8ed62;
+  cursor: 'not-allowed';
+}
+.isUserSlot {
+  background-color: darkseagreen;
+  // cursor: not-allowed;
+}
+.flexAlign {
+  align-items: center;
+  display: inline-flex;
+}
+
+.compose {
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 15px;
+  // min-height: 65vh;
+}
+
+.support_main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: auto;
+  height: 60vh;
+  // justify-content: flex-end;
+  // flex-flow: column nowrap;
+}
+
+.messageLeft {
+  float: left;
+}
+.messageRight {
+  float: right;
+}
+.message_name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.message_meta {
+  color: #777;
+  font-size: 14px;
+}
+
+.ulUser {
+  list-style-type: none;
+  font-weight: 500;
+  width: 100%;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  background-color: #dedede;
+}
+.liUser:hover {
+  background-color: #b8b8b8;
+}
+
+.liUser {
+  height: 65px;
+  padding: 15px 20px;
+  border: 11px solid rgb(255 255 255);
+  border-top: 0;
+}
+.supportSidebar {
+  height: 75vh;
+  color: #fff;
+  background: #3c4b64;
+  width: 35%;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.liSupport {
+  // background: #e7e9ec;
+  color: #ffffff99;
+  margin: 0px 0px 18px -40px;
+  height: 50px;
+  padding: 18px;
+}
+.liSupport:hover {
+  background: #ffffff0d;
+}
+
+.supportForm {
+  width: 65%;
+  padding-left: 20px;
+}
+
+.support_header {
+  color: #fff;
+  background-color: #3c4b64;
+  padding: 15px;
+  margin-left: -15px;
+  height: 50px;
+}
+
+.flex {
+  display: flex;
+}
